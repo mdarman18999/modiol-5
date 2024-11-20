@@ -5,6 +5,7 @@ body{
 nav{
     display: flex;
      justify-content: space-between;
+     margin: 0 200px;
 }
 .mmm{
     color:#181818;
@@ -13,28 +14,46 @@ nav{
 }
 .mm{
     color:#FD6E0A;
+    
 }
-.m{
-    border-radius: 3px;
+.btn-primary {
+    border-radius: 5px;
     background:#FD6E0A;
     border: 0;
     color: white;
     font-size:20px ;
     font-weight: 700;
     padding: 15px 35px;
+    
 }
 
 nav>ul{
     display: flex;
-   
+    display: flex;
     align-items: center;
 }
 nav li {
     list-style:none;
     margin-right: 50px ;
+    
 }
 nav a{
     text-decoration:  none;
     color:#474747;
+     display: flex;
+}
+/* headeer relaed styles */
+.header{
+    background: #FFF8F3;
+   
+}
+.banner {
+    padding: 30px 30px 30px 150px ;
+
+    display: flex;
+}
+.banner .profile-pic{
+    width: 500px;
+    
 }
 
