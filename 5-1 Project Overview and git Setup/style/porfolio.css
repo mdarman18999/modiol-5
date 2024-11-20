@@ -1,0 +1,32 @@
+body{
+    font-family: 'lato', sans-serif;
+    font-family: 'open sans' , sans-serif;
+}
+nav{
+    display: flex;
+}
+.mmm{
+    color:#181818;
+    font-size:45px;
+    font-weight:800;
+}
+.mm{
+    color:#FD6E0A;
+}
+.m{
+    border-radius: 3px;
+    background:#FD6E0A;
+}
+
+nav >ul{
+    display: flex;
+}
+nav li {
+    list-style:none;
+    margin-right: 50px ;
+}
+nav a{
+    text-decoration:  none;
+    color:#474747;
+}
+
