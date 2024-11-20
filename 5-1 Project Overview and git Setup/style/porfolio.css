@@ -4,6 +4,7 @@ body{
 }
 nav{
     display: flex;
+     justify-content: space-between;
 }
 .mmm{
     color:#181818;
@@ -16,10 +17,17 @@ nav{
 .m{
     border-radius: 3px;
     background:#FD6E0A;
+    border: 0;
+    color: white;
+    font-size:20px ;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 
-nav >ul{
+nav>ul{
     display: flex;
+   
+    align-items: center;
 }
 nav li {
     list-style:none;
